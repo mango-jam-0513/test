@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="bootstrap.min.css">
+  </head>
+  <body>
+    <div class="main container p-0">
+      <header id="home">
+        <!-- banner -->
+        <div class="banner">
+          <div class="container pt-5">
+            <div class="title row m-0 p-0 pt-5">
+              <div class="subtitle col-md-5 offset-md-1 mt-5">
+                  <h1 class="">Turn your videos & pictures into a movie with just one click.</h1>
+              </div>
+          </div>
+          </div>
+        </div>
+      </header>
+      <section id="about" class="section mt-5">
+        <div class="content container-fluid row p-0 m-0">
+          <div class="row d-flex text-center align-items-center justify-content-center p-0 m-0 mb-5">
+              <div class="title col-md-12">
+                  <h1>Tell Amazing Stories</h1>
+              </div>
+              <div class="desc col-md-12 mt-5">
+                  <h4>Editing software that brings your videos and pictures together in one movie.</h4>
+              </div>
+          </div>
+          <div class="description row col-md-12 p-0 m-0 mt-5" id="movement-container">
+            <div class="desc-img col-md-5 p-0" id="myImage">
+              <img src="./Assets/computer1.jpg" alt="" >
+            </div>
+            <div class="desc-detail col-md-7 row p-0 m-0 pr-5" id="myDesc">
+              <div class="desc-detail-item col-md-12 d-flex align-items-center">
+                <h1>Customize Your Moments</h1>
+              </div>
+              <div class="desc-detail-item col-md-12 d-flex align-items-center">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt dolores repudiandae unde vitae quisquam, commodi architecto magni voluptate culpa asperiores fugit? Ipsa minima vitae culpa in laboriosam illum enim?</p>
+              </div>
+              <div class="desc-detail-item col-md-12">
+                <button class="btn btn-default" onclick="move()">flip</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="section row p-0 m-0">
+        <div class="description row col-md-12 p-0 m-0">
+          <div class="desc-detail col-md-7 row p-0 m-0 pl-5">
+            <div class="desc-detail-item col-md-12">
+              <h1>Autometic Crop & Zoom</h1>
+            </div>
+            <div class="desc-detail-item col-md-12">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt dolores repudiandae unde vitae quisquam, commodi architecto magni voluptate culpa asperiores fugit? Ipsa minima vitae culpa in laboriosam illum enim?</p>
+            </div>
+            <div class="desc-detail-item col-md-12 id="btn">
+              <button class="btn btn-default" onclick="imagefun()">change</button>
+            </div>
+          </div>
+          <div class="desc-img col-md-5 p-0 m-0">
+            <img class="m-0 p-0 "src="./Assets/computer2.jpg" alt="" id="getImage">
+          </div>
+        </div>
+      </section>
+      <section id="tours" class="section">
+        <div class="title">
+        </div>
+      </section>
+      <!-- footer -->
+      <footer class="section mt-2 d-flex align-items-center justify-content-center">
+        <p>
+          Sitemap | Legal | Blog
+        </p>
+      </footer>
+      <a class="scroll-link top-link" href="#home">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    <!-- javascript -->
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
